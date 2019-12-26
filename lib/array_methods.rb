@@ -9,7 +9,7 @@ end
 end
 
 def find_max_value(array)
-  biggest = nil 
+  biggest = 0  
   counter = 0 
   while array.length>counter do
     if array[counter]>biggest
