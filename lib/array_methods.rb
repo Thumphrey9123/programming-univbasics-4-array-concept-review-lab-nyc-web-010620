@@ -24,7 +24,7 @@ def find_min_value(array)
   small = []  
   counter = 0 
   while array.length>counter do
-    if array[counter]>small
+    if array[counter]<small
       small = array[counter]
     end
     counter+=1 
